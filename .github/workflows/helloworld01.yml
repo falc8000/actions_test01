@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       message:
-      required: true
-      default: message default
+        required: true
+        default: message default
 
 jobs:
   echo:
